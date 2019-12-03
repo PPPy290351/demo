@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define ARRNUM 11
+#define ARRNUM 12
 
 char* dangerous[ARRNUM] = {
     "rm",
@@ -14,7 +14,8 @@ char* dangerous[ARRNUM] = {
     "chmod",
     "mkdir",
     "sudo",
-    "./"
+    "./",
+    "wget"
 };
 
 int dangerCheck(char* checkCmd){
