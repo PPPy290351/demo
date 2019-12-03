@@ -15,7 +15,7 @@ char* dangerous[ARRNUM] = {
     "mkdir",
     "sudo",
     "./",
-    "wget"
+    "wget",
     "apt"
 };
 
